@@ -1,3 +1,4 @@
+import { DateTime } from "./modules/luxon.js";
 import togglePages from "./modules/toggle.js";
 import addBookToLocalStorage from "./modules/addLocalStorage.js";
 import removeBook from "./modules/removeBook.js";
@@ -8,8 +9,8 @@ const form = document.querySelector('form');
 const bookList = document.querySelector('.book-list');
 const dateTime = document.querySelector('#date-time');
 
-const date = new Date();
-dateTime.innerHTML = date;
+const date = DateTime.now();
+dateTime.innerHTML = date.toLocaleString(DateTime.DATETIME_MED);;
 
 class Book {
   constructor(title, author) {
