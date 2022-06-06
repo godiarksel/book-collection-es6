@@ -165,7 +165,7 @@ hr {
 }
 
 .footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 95%;
   height: 30px;
