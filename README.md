@@ -37,9 +37,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Godfrey Arksel**
 
-- GitHub: [@godiarksel](https://github.com/githubhandle)
-- Twitter: [@godiarksel](https://twitter.com/twitterhandle)
-- LinkedIn: [Godfrey Mwandembo](https://linkedin.com/in/godfrey-mwandembo-045667127/)//github.com/githubhandle)
+- GitHub: [@godiarksel](https://github.com/godiarksel)
+- Twitter: [@godiarksel](https://twitter.com/godiarksel)
+- LinkedIn: [Godfrey Mwandembo](https://linkedin.com/in/godfrey-mwandembo-045667127/)
 
 ## 🤝 Contributing
 
