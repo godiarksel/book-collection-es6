@@ -1,15 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Book Collection ES6
 
-> Description the project.
+> This is project involves the refactoring of the book collection application to incorporate ES6 syntax and modules.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Javascript
+- Luxon
 
 ## Live Demo (if available)
 
@@ -18,45 +19,33 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+1. A code editor
+2. GitBash
+3. GoLive extension(Optional)
 
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+1. Open your GitBash and run the command git clone https://github.com/godiarksel/book-collection-es6.git
+2. Once cloned, access the directory with the cloned repo and run cd book-collection-es6
+3. Run code . to open the project in your default code editor
+4. Open the files as you wish.
+5. Click the GoLive button to run the code for a live demo.
 
 ## Authors
 
-👤 **Author1**
+👤 **Godfrey Arksel**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@godiarksel](https://github.com/githubhandle)
+- Twitter: [@godiarksel](https://twitter.com/twitterhandle)
+- LinkedIn: [Godfrey Mwandembo](https://linkedin.com/in/godfrey-mwandembo-045667127/)//github.com/githubhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/godiarksel/book-collection-es6/issues).
 
 ## Show your support
 
