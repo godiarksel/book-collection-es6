@@ -1,5 +1,6 @@
-import getBooks from "./getBook.js";
-const removeBook = id => {
+import getBooks from './getBook.js';
+
+const removeBook = (id) => {
   const bookCollection = getBooks();
   bookCollection.forEach((book, index) => {
     if (book.id === id) {
@@ -7,5 +8,5 @@ const removeBook = id => {
     }
     localStorage.setItem('bookApp', JSON.stringify(bookCollection));
   });
-}
+};
 export default removeBook;

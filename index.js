@@ -1,16 +1,16 @@
-import { DateTime } from "./modules/luxon.js";
-import togglePages from "./modules/toggle.js";
-import addBookToLocalStorage from "./modules/addLocalStorage.js";
-import removeBook from "./modules/removeBook.js";
-import addBookToList from "./modules/addList.js";
-import displayBooks from "./modules/displayBooks.js";
+import { DateTime } from './modules/luxon.js';
+import togglePages from './modules/toggle.js';
+import addBookToLocalStorage from './modules/addLocalStorage.js';
+import removeBook from './modules/removeBook.js';
+import addBookToList from './modules/addList.js';
+import displayBooks from './modules/displayBooks.js';
 
 const form = document.querySelector('form');
 const bookList = document.querySelector('.book-list');
 const dateTime = document.querySelector('#date-time');
 
 const date = DateTime.now();
-dateTime.innerHTML = date.toLocaleString(DateTime.DATETIME_MED);;
+dateTime.innerHTML = date.toLocaleString(DateTime.DATETIME_MED);
 
 class Book {
   constructor(title, author) {
@@ -46,4 +46,3 @@ form.addEventListener('submit', (e) => {
 });
 
 togglePages();
-

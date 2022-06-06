@@ -6,5 +6,5 @@ const getBooks = () => {
     bookCollection = JSON.parse(localStorage.getItem('bookApp'));
   }
   return bookCollection;
-}
+};
 export default getBooks;
